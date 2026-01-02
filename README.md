@@ -50,7 +50,7 @@ Support staff can verify a client's PIN using the dashboard widget on the Admin 
 This module is developed and maintained by **SWASTIK.DEV**.
 
 *   **Website**: [https://swastik.dev](https://swastik.dev)
-*   **Issues**: Please report any bugs or feature requests via our support channels.
+*   **Issues**: Please report any bugs or feature requests to **hello@swastik.dev**
 
 ---
 
