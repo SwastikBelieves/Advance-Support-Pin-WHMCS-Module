@@ -1,0 +1,132 @@
+.supportpin-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    margin: 2rem auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.supportpin-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.supportpin-display {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2563eb;
+    letter-spacing: 0.1em;
+    margin: 1.5rem 0;
+    display: block;
+}
+
+.supportpin-actions {
+    margin-top: 1.5rem;
+}
+
+.btn-renew {
+    background-color: #f3f4f6;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-renew:hover {
+    background-color: #e5e7eb;
+    border-color: #9ca3af;
+}
+
+.btn-renew i {
+    font-size: 0.8rem;
+}
+
+/* Sidebar Widget */
+/* Redesigned Sidebar Widget */
+.supportpin-sidebar-widget {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.supportpin-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.supportpin-digits-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.supportpin-digits-container:active {
+    transform: scale(0.98);
+}
+
+.supportpin-digit-box {
+    background: #f3f4f6;
+    border-radius: 8px;
+    min-width: 0;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    flex: 1;
+}
+
+.supportpin-digits-container.copied .supportpin-digit-box {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.supportpin-actions-row {
+    display: flex;
+    gap: 8px;
+}
+
+.supportpin-actions-row .btn {
+    flex: 1;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    color: #374151;
+    border-radius: 8px;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supportpin-actions-row .btn:hover {
+    background: #f9fafb;
+    border-color: #d1d5db;
+}
+
+.supportpin-actions-row .btn i {
+    font-size: 1rem;
+}
